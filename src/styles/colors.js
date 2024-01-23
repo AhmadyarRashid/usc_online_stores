@@ -1,5 +1,5 @@
 export const Theme = {
-  PrimaryColor: '#407BFF',
+  PrimaryColor: 'green',
   SecondaryColor: '#3AA76D',
 };
 
