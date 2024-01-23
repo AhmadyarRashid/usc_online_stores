@@ -1,0 +1,50 @@
+{
+  "name": "sangalo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "npx react-native run-ios --simulator='iPhone 14'",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "0.1.10",
+    "@react-navigation/bottom-tabs": "5.11.8",
+    "@react-navigation/drawer": "5.12.4",
+    "@react-navigation/material-top-tabs": "5.3.14",
+    "@react-navigation/native": "5.9.3",
+    "@react-navigation/stack": "5.14.3",
+    "react": "17.0.1",
+    "react-native": "0.64.0",
+    "react-native-elements": "3.3.2",
+    "react-native-gesture-handler": "1.10.3",
+    "react-native-google-places-autocomplete": "^2.5.6",
+    "react-native-image-picker": "3.3.2",
+    "react-native-image-zoom-viewer": "3.0.1",
+    "react-native-linear-gradient": "2.5.6",
+    "react-native-reanimated": "2.1.0",
+    "react-native-safe-area-context": "3.2.0",
+    "react-native-screens": "2.16.1",
+    "react-native-share": "5.1.7",
+    "react-native-snap-carousel": "3.9.1",
+    "react-native-swiper": "1.6.0",
+    "react-native-vector-icons": "8.1.0",
+    "react-redux": "7.2.3",
+    "redux": "4.0.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/runtime": "^7.8.4",
+    "@react-native-community/eslint-config": "^1.1.0",
+    "babel-jest": "^25.1.0",
+    "eslint": "^6.5.1",
+    "jest": "^25.1.0",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "react-test-renderer": "16.13.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
